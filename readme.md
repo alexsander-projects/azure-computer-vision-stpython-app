@@ -12,7 +12,10 @@ The app then displays the OCR results.
 
 ### How to run the app
 
-- Change `<vision_base_url>` and `<subscription_key>` in the `main.py` file to your own Azure Computer Vision API endpoint and subscription key.
+- First, on an Azure account, create an Azure AI services multi-service account.
+- Then, get the endpoint and subscription key for the Computer Vision API, these can be found under `Resource Management > Keys and Endpoint`.
+- Change `<vision_base_url>` and `<subscription_key>` in the `main.py` file to your own Azure Computer Vision API 
+- endpoint and subscription key.
 - Run the following commands:
 
 ```bash
