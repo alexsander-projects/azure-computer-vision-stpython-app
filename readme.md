@@ -14,14 +14,13 @@ The app then displays the OCR results.
 
 - First, on an Azure account, create an Azure AI services multi-service account.
 - Then, get the endpoint and subscription key for the Computer Vision API, these can be found under `Resource Management > Keys and Endpoint`.
-- Change `<vision_base_url>` and `<subscription_key>` in the `main.py` file to your own Azure Computer Vision API 
-- endpoint and subscription key.
+- Change `<vision_base_url>` and `<subscription_key>` in the `main.py` file to your own Azure Computer Vision API endpoint and subscription key.
 - Run the following commands:
 
 ```bash
 streamlit run main.py
 ```
 - Go to `http://localhost:8501` in your web browser.
-- Upload an image file that contains text.
+- Upload any image file that contains text.
 - Click the 'Analyze' button.
 - The OCR results will be displayed.
